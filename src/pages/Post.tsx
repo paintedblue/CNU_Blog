@@ -2,9 +2,10 @@ import { useEffect, useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import styled from '@emotion/styled';
 import { deletePostById, getPostById } from '../api';
-import { IPost } from '../api/types';
+import { IAdvertisement, IPost } from '../api/types';
 import NotFound from '../components/NotFound';
 import Tag from '../components/Tag';
+
 
 const Title = styled.h1`
   font-size: 3rem;
@@ -73,7 +74,7 @@ const Post = () => {
   useEffect(() => {
     fetchPostByid();
   }, []);
-
+  const navigate = useNavigate();
 
   if (!post) {
     return <NotFound />;
@@ -86,7 +87,7 @@ const Post = () => {
     }
   };
 
-  const navigate = useNavigate();
+
 
   const requestDeletePostById = async () => {
     await deletePostById(postId);
