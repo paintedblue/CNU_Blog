@@ -126,7 +126,7 @@ const Write = () => {
   const isEdit = state?.postId;
 
   const fetchPostById = async (postId: string) => {
-    const { data } = await getPostById(Number(postId));
+    const { data } = await getPostById(postId);
     const { post } = data;
     setTitle(post.title);
     setContent(post.contents);
