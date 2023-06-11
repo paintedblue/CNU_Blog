@@ -59,10 +59,10 @@ const Layout = () => {
     <div>
       <Profile>
         <div>
-          <ProfilePicture src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.bunjang.co.kr%2Fproducts%2F225953087%3Fref%3D%25EA%25B2%2580%25EC%2583%2589%25EA%25B2%25B0%25EA%25B3%25BC&psig=AOvVaw1vWYmRhdJXg2b5J19qO9mq&ust=1686572322127000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLiz8NKZu_8CFQAAAAAdAAAAABAI" alt="프로필 사진" />
+          <ProfilePicture src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUIS_faBipfftNCV-46OYoT_GakMXV0mpc5g&usqp=CAU" alt="프로필 사진" />
         </div>
         <div>
-          <Name>장영</Name>
+          <Name>장영님의 블로그</Name>
           <Description>StudentID : 202102694</Description>
         </div>
       </Profile>

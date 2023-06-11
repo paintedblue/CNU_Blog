@@ -28,7 +28,7 @@ const Header = () => {
     <div>
       <Wrapper>
         <Link to="/">
-          <h2>JD\x00L-s Blog</h2>
+          <h2>Young's Blog</h2>
         </Link>
         <Link to="/write">
           <Button className="write-button">글쓰기</Button>
